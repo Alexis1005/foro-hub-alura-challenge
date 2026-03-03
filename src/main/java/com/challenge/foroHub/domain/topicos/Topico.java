@@ -4,6 +4,7 @@ import com.challenge.foroHub.domain.cursos.Curso;
 import com.challenge.foroHub.domain.respuestas.Respuesta;
 import com.challenge.foroHub.domain.usuarios.Usuario;
 import jakarta.persistence.*;
+import jakarta.validation.Valid;
 import lombok.*;
 
 import java.time.LocalDateTime;
@@ -38,4 +39,17 @@ public class Topico {
 
     @OneToMany(mappedBy = "topico", cascade = CascadeType.ALL)
     private List<Respuesta> respuestas = new ArrayList<>();
+
+    public Topico(@Valid DatosTopicos datosTopicos) {
+    }
+
+    public Topico(Long id, String titulo, String mensaje, Usuario autor, Curso curso) {
+        this.id = id;
+        this.titulo = titulo;
+        this.mensaje = mensaje;
+        this.autor = autor;
+        this.curso = curso;
+        this.fechaCreacion = LocalDateTime.now();
+        this.status = Status.ABIERTO;
+    }
 }

@@ -1,0 +1,1 @@
+UPDATE cursos SET categoria = 'BACKEND' WHERE id = 1;

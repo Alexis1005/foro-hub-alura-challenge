@@ -22,7 +22,7 @@ public class Respuesta {
     private String mensaje;
     private LocalDateTime fechaCreacion;
     @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "respuesta_id")
+    @JoinColumn(name = "topico_id")
     private Topico topico;
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name="usuario_id")

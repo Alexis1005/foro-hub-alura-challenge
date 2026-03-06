@@ -46,11 +46,14 @@
 ## 📸 Capturas
 
 ### Documentación Swagger UI
-![Swagger UI](assets/swagger_ui.png)
+<div align="center">
+<img src="assets/swagger_ui.png" width="600" height="500"/>
+</div>
 
 ### Diagrama de entidades
-![Diagrama de entidades](assets/diagrama_entidades.png)
-
+<div align="center">
+<img src="assets/Diagrama_entidades.png" width="600" height="500"/>
+</div>
 ---
 
 ## 🗄️ Modelo de datos

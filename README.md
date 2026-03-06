@@ -6,7 +6,6 @@
 ![JWT](https://img.shields.io/badge/JWT-Auth0%204.5.1-purple?style=flat-square)
 ![Flyway](https://img.shields.io/badge/Flyway-Migrations-red?style=flat-square)
 ![Swagger](https://img.shields.io/badge/Swagger-SpringDoc%202.8.5-green?style=flat-square&logo=swagger)
-![License](https://img.shields.io/badge/Licencia-MIT-green?style=flat-square)
 
 ---
 
